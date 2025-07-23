@@ -2,8 +2,7 @@ name: Keep Backend Alive
 
 on:
   schedule:
-    - cron: '*/28 * * * *'        # At minute 0, 28
-    - cron: '14-59/28 * * * *'    # At minute 14, 42
+    - cron: '*/5 * * * *'        # At minute 0, 28
   workflow_dispatch:         # Manual trigger support
 
 # If a new run is triggered while the old one is still running,
